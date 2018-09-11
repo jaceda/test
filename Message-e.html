@@ -44,8 +44,7 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
-<meta property=”fb:admins” content=”1773496140”/>
-<meta property=”fb:app_id” content=”2085462115103146”>	
+
 </head>
 
 <body onload="MM_preloadImages('images/E1_06-1.png','images/E1_07-1.png','images/E1_12-1.gif','images/E1_17-1.gif','images/E1_19-1.gif','images/E1_21-1.gif','images/E1_23-1.gif','images/E1_25-1.gif','images/E1_27-1.gif')">
@@ -81,7 +80,16 @@ function MM_swapImage() { //v3.0
         <td rowspan="13"><img src="images/E1_11.gif" width="45" height="272" alt="" /></td>
         <td colspan="2"><a href="Introduction-e.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image58','','images/E1_12-1.gif',1)"><img src="images/E1_12.gif" name="Image58" width="238" height="39" border="0" id="Image58" /></a></td>
         <td rowspan="14"><img src="images/E1_13.gif" width="49" height="403" alt="" /></td>
-        <td colspan="3" rowspan="15"><div class="fb-comments" data-href="https://jaceda.github.io/test/index.html" data-width="500" data-numposts="2"></div></td>
+        <td colspan="3" rowspan="15">
+	<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="215941741869571"
+  theme_color="#0084ff"
+  logged_in_greeting="您好,有問題需要協助嗎"
+  logged_out_greeting="您好,有問題需要協助嗎">
+</div>
+</td>
         <td rowspan="15"><img src="images/E1_15.gif" width="57" height="484" alt="" /></td>
         <td><img src="images/間距.gif" width="1" height="39" alt="" /></td>
       </tr>
@@ -169,12 +177,13 @@ function MM_swapImage() { //v3.0
     </table></th>
   </tr>
 </table>
+<!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.1&appId=2185110235096378&autoLogAppEvents=1';
+  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
